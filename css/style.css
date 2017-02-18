@@ -8,6 +8,18 @@ body {
     background-color: #09b2cb;
     border-radius: 30px;
     padding: 2em;
-    padding-bottom: 1em;
-    margin-top: 8.33333333%;
+    margin-top: 4%;
+}
+
+input {
+    color: black;
+}
+
+a {
+    color: white;
+    font-size: 2em;
+}
+
+a:hover {
+    color: black;
 }
