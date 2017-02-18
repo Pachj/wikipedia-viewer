@@ -9,10 +9,24 @@ body {
     border-radius: 30px;
     padding: 2em;
     margin-top: 4%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#results-section {
+    background-color: #09b2cb;
+    border-radius: 30px;
+    padding: 2em;
+    padding-bottom: 1em;
+    margin-top: 4%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 input {
     color: black;
+}
+
+.article {
+    margin-bottom: 1em;
 }
 
 a {

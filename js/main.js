@@ -33,7 +33,7 @@ function displayArticles(articles) {
         let actualTitle = articles.query.search[i].title;
         let actualUrl = url + actualTitle.replace(" ", "_");
 
-        $("#results-section").append("<div class='row'><div class='col-xs-12'><a href='" + actualUrl + "'>" + actualTitle + "</a></div></div>");
+        $("#results-section").append("<div class='row'><div class='col-xs-12 article'><a href='" + actualUrl + "'>" + actualTitle + "</a></div></div>");
 
     }
 }
