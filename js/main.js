@@ -28,6 +28,7 @@ function getArticles(searchText) {
 }
 
 function displayArticles(articles) {
+    $("#results-section").css("display", "block");
     let url = "https://en.wikipedia.org/wiki/";
     for (let i = 0; i < articles.query.search.length; i++) {
         let actualTitle = articles.query.search[i].title;
